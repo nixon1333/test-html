@@ -1,5 +1,5 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
-		
+	
 a.brand img {
 	border-radius:50%;
 	border:5px solid #fff;
@@ -27,6 +27,9 @@ a.brand img {
 	font-size:18px;
 	line-height: 35px;
 	margin-top: 30px;
+}
+#info_work{
+	margin-top: auto !important;
 }
 #profile .container .span5 {
 	padding:40px 0;
