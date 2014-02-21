@@ -67,7 +67,7 @@ ul.social-icons li:first-child {
 	margin-left:0;
 }
 ul.social-icons li a {
-	opacity:0.8;
+	opacity:0.6;
 }
 ul.social-icons li a:hover {
 	opacity:1;
@@ -278,4 +278,9 @@ ul.work-images li img:hover {
 }
 .footer p a:hover {
 	color:#39d084;
+}
+
+.socials {
+height: 48px;
+width: 48px;
 }
