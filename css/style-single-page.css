@@ -284,3 +284,18 @@ ul.work-images li img:hover {
 height: 48px;
 width: 48px;
 }
+
+.fancybox-title {
+visibility: hidden;
+font: normal 17px/25px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+position: relative;
+text-shadow: none;
+z-index: 8050;
+}
+
+.fancybox-title-inside-wrap {
+padding-top: 10px;
+text-align: center;
+/* font-size: large; */
+font-weight: 900 !important;
+}
