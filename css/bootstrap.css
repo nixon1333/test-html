@@ -4571,6 +4571,14 @@ button.close {
  .skills .span5 {
  padding:10px !important;
 }
+
+.skilsss {
+ width: 320px !important;
+}
+
+.skilss{
+	text-align: center;
+}
  .profile h2, .skills h2, .work h2, .resume h2 {
  text-align:center;
  margin:0 0 20px;
@@ -5354,6 +5362,7 @@ ul.work-images li div {
 }
  .navbar-fixed-top {
  margin-bottom: 20px;
+ position: fixed;
 }
  .navbar-fixed-bottom {
  margin-top: 20px;
