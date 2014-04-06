@@ -4573,11 +4573,12 @@ button.close {
 }
 
 .skilsss {
- width: 320px !important;
+ width: 63% !important;
 }
 
 .skilss{
 	text-align: center;
+	display: none;
 }
  .profile h2, .skills h2, .work h2, .resume h2 {
  text-align:center;
