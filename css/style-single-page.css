@@ -270,14 +270,23 @@ ul.work-images li img:hover {
 	background:#355267;
 }
 .footer p {
-	margin:20px 0;
+	font-size: 15px;
+	/*margin:20px 0;*/
+}
+
+.tp{
+	font-size: 16px !important;
+}
+
+.to{
+	color: rgba(27, 172, 0, 0.79)
 }
 .footer p a {
 	color:#fff;
 	text-decoration:none;
 }
 .footer p a:hover {
-	color:#39d084;
+	color:#39D0C9;
 }
 
 .socials {

@@ -267,8 +267,12 @@ ul.work-images li img:hover {
 	width: 100%;
 	bottom:0;
 }
+
+.footer *{
+	line-height: 0px !important;
+}
 .footer p {
-	margin:20px 0;
+	/*margin:20px 0;*/
 }
 .footer p a {
 	color:#fff;
