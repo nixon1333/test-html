@@ -21,6 +21,7 @@
 
 
 		<script src="js/jquery.min.js"></script>
+
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -30,6 +31,9 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
+
+
+		
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -50,9 +54,9 @@
 										<nav id="nav">
 											<ul>
 												<li class="current_page_item"><a href="#">Home</a></li>
-												<li><a href="#">Skills</a></li>
-												<li><a href="#">Protfolio</a></li>
-												<li><a href="#">Contact</a></li>
+												<li><a id="skillsas" href="#">Skills</a></li>
+												<li><a id="worksas" href="#">Protfolio</a></li>
+												<li><a id="contacts" href="#">Contact</a></li>
 											</ul>
 										</nav>
 
@@ -74,7 +78,7 @@
 
 						</div>
 					</div>
-					<div class="row">
+					<div class="row skiller">
 						<div class="12u">
 								
 							<!-- Intro -->
@@ -291,6 +295,34 @@
 					</section>
 				
 			</div>
+
+		<script type="text/javascript">
+
+			    $("#skillsas").click(function (){
+	            	//$(this).animate(function(){
+	                    $('html, body').animate({
+	                        scrollTop: $(".skiller").offset().top
+	                    }, 2000);
+	                //});
+	            });
+
+	            $("#worksas").click(function (){
+	            	//$(this).animate(function(){
+	                    $('html, body').animate({
+	                         scrollTop: $("#main-wrapper").offset().top
+	                    }, 2000);
+	                //});
+	            });
+
+	            $("#contacts").click(function (){
+	            	//$(this).animate(function(){
+	                    $('html, body').animate({
+	                         scrollTop: $("#footer").offset().top
+	                    }, 2000);
+	                //});
+	            });
+	    </script> 
+
         <script src="js/toucheffects.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
