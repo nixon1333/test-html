@@ -354,15 +354,15 @@
 			left: 0;
 			top: 0;
 			padding: 4em;
-			left: 72%;
-			top: 45%;
+			left: 50%;
+			top: 81%;
 
 			/*
 				To vertically center this we need to set a width/height for the header
 				overlay, then set a negative left/top margin set to half its width/height.
 			*/
 			
-			width: 46em;
+			width: 51em;
 			height: 13em;
 			
 			margin-left: -25em;
